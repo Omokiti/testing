@@ -11,3 +11,6 @@ function About(){
 }
 
 export default About;
+
+
+// git config --global user.name "Omokiti"

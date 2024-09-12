@@ -3,6 +3,7 @@ import './App.css';
 import Intercom from '@intercom/messenger-js-sdk';
 import Home from './Home'
 import About from './About'
+import Contact from './Contact'
 Intercom({
   app_id: 'befoprcf',
   // user_id: user.id, // IMPORTANT: Replace "user.id" with the variable you use to capture the user's ID
@@ -18,6 +19,7 @@ function App() {
      <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
+      <Route path="/contact" element={<Contact/>}/>
      </Routes>
      
     </div>

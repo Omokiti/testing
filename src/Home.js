@@ -16,6 +16,12 @@ function Home() {
         <Link to="about">About</Link>
          
         </div>
+
+        <div className='linkz'>
+         
+         <Link to="contact">Contact Us</Link>
+          
+         </div>
            
         </div>
       </div>
